@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Finder</string>
+    <string name="location">City, Neighbourhood <font color='#FF0000'>*</font></string>
+    <string name="search_hint">Find a business </string>
+    <string name="search_button">GO</string>
+    <string name="search">Go</string>
+    <string name="no_response">Oops! Nothing found</string>
+</resources>
