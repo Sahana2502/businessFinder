@@ -24,7 +24,7 @@ Once the results are displayed, user can view details of any business.
 The app does the following:
 1. User enters a optional search term (Salon, Restaurants, Pizza) and a mandatory location(Toronto,Montreal).
 2. Fetch the business data asynchronously from [Yelp Business search API](https://api.yelp.com/v3/businesses/search).
-3. Display the scrollable list of businesses grouped under categories in a sorted manner.
+3. Display the scrollable list of businesses grouped under categories in a sorted mannerin a nested RecyclerView.
 4. A business could appear in multiple categories based on data from the API.
 5. User can further view details of a business including name, rating, categories and image by clicking on a business name.
 6. In case no response is returned, a message is displayed.
