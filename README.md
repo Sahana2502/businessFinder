@@ -1,8 +1,8 @@
 # Business Finder
 
-An Android app that uses the [Yelp API](https://www.yelp.com/developers) to find business at a specified location.
+An Android app that uses the [Yelp API](https://www.yelp.com/developers) to find business(es) at a specified location.
 
-Business Finder is a single page app. User can search for a particular business by entering a name or enter a geneic term at a specified location/neighbourhood. 
+Business Finder is a single page app. User can search for a particular business by entering a name or enter a generic term at a specified location/neighbourhood. 
 Once the results are displayed, user can view details of any business.
 
 ## Screenshots
@@ -22,12 +22,12 @@ Once the results are displayed, user can view details of any business.
 ## Overview
 
 The app does the following:
-1. User enters a optional search term (Salon, Restaurants, Pizza) and a mandatory location(Toronto,Montreal).
-2. Fetch the business data asynchronously from [Yelp Business search API](https://api.yelp.com/v3/businesses/search).
-3. Display the scrollable list of businesses grouped under categories in a sorted mannerin a nested RecyclerView.
-4. A business could appear in multiple categories based on data from the API.
-5. User can further view details of a business including name, rating, categories and image by clicking on a business name.
-6. In case no response is returned, a message is displayed.
+1. User enters a optional search term (Salon, Restaurants, Pizza) and a mandatory location(Toronto,Montreal etc.,)
+2. Fetch the business data asynchronously from [Yelp Business search API](https://api.yelp.com/v3/businesses/search)
+3. Display the scrollable list of businesses grouped under alphabetically sorted categories in a nested RecyclerView
+4. A business could appear in multiple categories based on data from the API
+5. User can further view details of a business including name, rating, categories and image by clicking on a business name
+6. In case no response is returned, a message is displayed
 
 ## Building the Business Finder App
 
@@ -61,6 +61,11 @@ Connect an Android device to your desktop/laptop.
 
 This app leverages the following third-party library:
 
- * [Glide](https://github.com/bumptech/glide) - For displaying image under business details.
- * [Retrofit](https://square.github.io/retrofit/) - Http client to fetch API data.
+ * [Glide](https://github.com/bumptech/glide) - For displaying image under business details
+ * [Retrofit](https://square.github.io/retrofit/) - Http client to fetch API data
 
+
+## Future Enhancements
+
+* Request user's permission for location to display nearby business(es) in the homescreen
+* Format data to display in user-friendly format (asian --> Asian, gluten_free --> Gluten Free etc., ) 
